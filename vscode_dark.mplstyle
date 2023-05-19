@@ -1,0 +1,29 @@
+# Set 252526 background default line colors to d4d4d4.
+
+lines.color: d4d4d4
+patch.edgecolor: d4d4d4
+
+text.color: d4d4d4
+
+axes.facecolor: 252526
+axes.edgecolor: d4d4d4
+axes.labelcolor: d4d4d4
+axes.prop_cycle: cycler('color', ['8dd3c7', 'feffb3', 'BFBBD9', 'fa8174', '81b1d2', 'fdb462', 'b3de69', 'bc82bd', 'ccebc4', 'ffed6f'])
+
+xtick.color: d4d4d4
+ytick.color: d4d4d4
+
+grid.color: 585858
+
+figure.facecolor: 252526
+figure.edgecolor: 252526
+
+savefig.facecolor: 252526
+savefig.edgecolor: 252526
+
+### Boxplots
+boxplot.boxprops.color: d4d4d4
+boxplot.capprops.color: d4d4d4
+boxplot.flierprops.color: d4d4d4
+boxplot.flierprops.markeredgecolor: d4d4d4
+boxplot.whiskerprops.color: d4d4d4
