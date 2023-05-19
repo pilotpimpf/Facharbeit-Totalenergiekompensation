@@ -7,7 +7,7 @@ import pandas as pd
 import gpxpy
 
 from pltgraph import *
-%config InlineBackend.figure_format = 'svg'
+%config InlineBackend.figure_format = 'jpg'
 # Druckdaten vom OpenVario importieren
 df = pd.read_csv("Messungen/erster.csv", parse_dates=True)
 
@@ -62,7 +62,7 @@ plt_data(time,(static, tek), description=description, borders = (lower, upper), 
 
 
     
-![svg](main_files/main_4_0.svg)
+![jpeg](main_files/main_4_0.jpg)
     
 
 
@@ -90,7 +90,7 @@ plt_data(time, (h_static, h_tek), description=description, borders = (lower, upp
 
 
     
-![svg](main_files/main_6_0.svg)
+![jpeg](main_files/main_6_0.jpg)
     
 
 
@@ -117,7 +117,7 @@ plt_data(time,(stau, d_stek), description=description, borders = (lower, upper),
 
 
     
-![svg](main_files/main_8_0.svg)
+![jpeg](main_files/main_8_0.jpg)
     
 
 
@@ -147,7 +147,7 @@ plt_data(time,(vstau, vtek), description=description, borders = (lower, upper), 
 
 
     
-![svg](main_files/main_10_0.svg)
+![jpeg](main_files/main_10_0.jpg)
     
 
 
@@ -193,7 +193,7 @@ plt_data(time,(v_vario_static, v_vario_tek), description=description, borders = 
 
 
     
-![svg](main_files/main_12_0.svg)
+![jpeg](main_files/main_12_0.jpg)
     
 
 
@@ -239,7 +239,7 @@ plt_data(time,(v_vario_static, v_vario_stauTEK, v_vario_tek), description=descri
 
 
     
-![svg](main_files/main_14_0.svg)
+![jpeg](main_files/main_14_0.jpg)
     
 
 
@@ -260,7 +260,7 @@ plt_data(time_gps,(altitude_gps), description=description, borders = (lower_gps,
 
 
     
-![svg](main_files/main_17_0.svg)
+![jpeg](main_files/main_17_0.jpg)
     
 
 
@@ -278,7 +278,7 @@ plt_data(time_gps,(speed_gps), description=description, borders = (lower_gps, up
 
 
     
-![svg](main_files/main_19_0.svg)
+![jpeg](main_files/main_19_0.jpg)
     
 
 
@@ -348,7 +348,7 @@ plt_data(time_gps,(v_vario_gps, v_vario_tek_gps), description=description, borde
 
 
     
-![svg](main_files/main_23_0.svg)
+![jpeg](main_files/main_23_0.jpg)
     
 
 
@@ -384,6 +384,6 @@ plt.show()
 
 
     
-![svg](main_files/main_26_0.svg)
+![jpeg](main_files/main_26_0.jpg)
     
 
